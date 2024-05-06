@@ -20,9 +20,12 @@ class Mjerenje():
 
         self.pad_tlaka_bar = self.tlak_u_visokotlacnoj_cijevi_bar - self.tlak_u_niskotlacnoj_cijevi_bar
         self.pad_tlaka_paskal = self.tlak_u_visokotlacnoj_cijevi_paskal - self.tlak_u_niskotlacnoj_cijevi_paskal
+        
         self.teorijski_moment_njutn_metar = teorijski_moment(self.specificni_protok_metar_kubicni_po_sekundi, self.pad_tlaka_paskal)
+        self.hidromehanicki_stupanj_iskoristivosti = hidromehanicki_stupanj_iskoristivosti(self.stvarni_moment_njutnmetar, self.teorijski_moment_njutn_metar)
 
         self.teorijski_protok_metar_kubicni_po_sekundi = teorijski_protok(self.specificni_protok_metar_kubicni_po_sekundi, self.brzina_vrtnje_herc)
+        
 
     def __str__(self):
         output = f"Mjerenje: {self.broj_mjerenja}\n"
@@ -31,6 +34,7 @@ class Mjerenje():
         output += f"Pad tlaka: {self.pad_tlaka_bar} bar\n"
         output += f"Brzina vrtnje: {self.brzina_vrtnje_herc} 1/s\n"
         output += f"Teorijski moment: {self.teorijski_moment_njutn_metar} Nm\n"
+        output += f"Hidro-mehanički stupanj iskoristivosti: {self.hidromehanicki_stupanj_iskoristivosti}\n"
         output += f"Teorijski protok: {self.teorijski_protok_metar_kubicni_po_sekundi} m3/s\n"
 
         return output
