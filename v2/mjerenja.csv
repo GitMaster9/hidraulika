@@ -1,4 +1,4 @@
-,Napon [V],Struja [A],Snaga [kW],v.t.c. tlak [bar],n.t.c. tlak [bar],Stv. mom. [Nm],Brzina vrtnje [min-1],Meh. snaga [kW],Q1 [cm³],Pad tlaka [bar],Pad tlaka [Pa],Q_th [cm³/s],T_th [Nm],η_hm,Q_stv [cm³/s],Q_L [cm³/s],η_V,η_t,P_h [kW],P_m [kW]
+,Napon [V],Struja [A],Snaga [kW],v.t.c. tlak [bar],n.t.c. tlak [bar],Stv. mom. [Nm],Brzina vrtnje [min⁻¹],Meh. snaga [kW],Q1 [cm³],Pad tlaka [bar],Pad tlaka [Pa],Q_th [cm³/s],T_th [Nm],η_hm,Q_stv [cm³/s],Q_L [cm³/s],η_V,η_t,P_h [kW],P_m [kW]
 0,5,1.49,0.007,30.5,11.3,12.3,306,0.4,51.5,19.2,1920000.0,262.65,15.737,0.782,266.667,4.017,0.985,0.77,0.512,0.394
 1,6,1.74,0.01,33.7,11.2,15.4,305,0.48,51.5,22.5,2250000.0,261.792,18.442,0.835,266.667,4.875,0.982,0.82,0.6,0.492
 2,7,2.0,0.014,38.2,11.0,18.8,305,0.6,51.5,27.2,2720000.0,261.792,22.294,0.843,266.667,4.875,0.982,0.828,0.725,0.6
