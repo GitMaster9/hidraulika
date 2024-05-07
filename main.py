@@ -2,12 +2,12 @@ import matplotlib.pyplot as plt
 
 from mjerenje import Mjerenje
 
-mjerenje1 = Mjerenje(1, 5, 1.49, 0.007, 30.5, 11.3, 12.3, 306, 0.4, specificni_protok=50)
-mjerenje2 = Mjerenje(2, 6, 1.74, 0.01, 33.7, 11.2, 15.4, 305, 0.48, specificni_protok=50)
-mjerenje3 = Mjerenje(3, 7, 2, 0.014, 38.2, 11, 18.8, 305, 0.6, specificni_protok=50)
-mjerenje4 = Mjerenje(4, 8, 2.28, 0.018, 43.6, 10.7, 23.2, 303, 0.74, specificni_protok=50)
-mjerenje5 = Mjerenje(5, 9, 2.54, 0.023, 49.7, 10.7, 28.3, 301, 0.9, specificni_protok=50)
-mjerenje6 = Mjerenje(6, 10, 2.79, 0.028, 56.1, 10.5, 33.4, 299, 1.04, specificni_protok=50)
+mjerenje1 = Mjerenje(1, 5, 1.49, 0.007, 30.5, 11.3, 12.3, 306, 0.4, 16)
+mjerenje2 = Mjerenje(2, 6, 1.74, 0.01, 33.7, 11.2, 15.4, 305, 0.48, 16)
+mjerenje3 = Mjerenje(3, 7, 2, 0.014, 38.2, 11, 18.8, 305, 0.6, 16)
+mjerenje4 = Mjerenje(4, 8, 2.28, 0.018, 43.6, 10.7, 23.2, 303, 0.74, 16)
+mjerenje5 = Mjerenje(5, 9, 2.54, 0.023, 49.7, 10.7, 28.3, 301, 0.9, 16)
+mjerenje6 = Mjerenje(6, 10, 2.79, 0.028, 56.1, 10.5, 33.4, 299, 1.04, 16)
 
 # mjerenja = [mjerenje1, mjerenje2, mjerenje3, mjerenje4, mjerenje5, mjerenje6]
 
@@ -41,4 +41,4 @@ mjerenje6 = Mjerenje(6, 10, 2.79, 0.028, 56.1, 10.5, 33.4, 299, 1.04, specificni
 # plt.grid(True)
 # plt.show()
 
-print(mjerenje1.__str__())
+print(mjerenje6.__str__())
